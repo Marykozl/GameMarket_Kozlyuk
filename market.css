@@ -1,50 +1,85 @@
-body
-{
-    front-family: sans-serif;
-    background-color: rgb(188, 238, 238);
-    display: flex;
-    justify-content: center;
-}
 
-content
+    body
 {
-    width:420px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap:10px;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Roboto;
+        background-color: rgb(188, 238, 238);
+        display: flex;
+        justify-content: center;
 }
-
-div
+    content
 {
-    border:1px solid darkgray;
+        width:460px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px;
 }
+/*блок заголовку*/
         .title
 {
-    background: rgb(red, green, blue);
     width: auto;
-    color: rgb(0, 2, 3);
-    padding:10px;
+    padding: 10px;
+    margin-top: 20px;
+    background:aquamarine;
     border-radius:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.19);
+    color: white;
     text-transform: uppercase;
     font-size:20px;
     text-align: center;
     font-weight: bold;
     letter-spacing:3px;
 }
+/*блок товарів*/
         .items
 {
-    padding:10px;
     display: flex;
-    gap:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+/*блок окремого товару*/
         .item
-        {
-    width:200px;
-    height:320px;
+{
+    min-width:200px;
+    min-height:400px;
     margin-bottom:10px;
-    border:1px solid rgb(red, green, blue);
+    padding: 10px;
+    background-color: aquamarine;
+    border:1px solid rgb(194, 194, 194);
     border-radius:5px;
-    box-shadow:0 0 7px rgba(red, green, blue, alpha);
+    box-shadow:0 0 7px rgba(0, 0, 0, 0.3);
+}
+    .contacts p
+{
+margin: 3px;
+}
+    .contacts p:first-child
+{
+    font-weight: bold;
 
-        }
+}
+    .contacts p:last-child
+{
+    border-left: 3px soid rgb(253, 48, 48);
+}
+    .license
+{
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120,120);
+}
+/*блок окремого товару*/
+    .item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*блок назви товару*/
+    .item-title
+{
+    font-weight: bold;
+}
