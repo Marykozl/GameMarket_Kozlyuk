@@ -1,102 +1,96 @@
 
 body{
-    font-family: sans-serif;    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;    
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     }
     content {
-       width: 420px;
+       width: 460px;
        display: flex;
        flex-direction: column;
        justify-content: center;
        gap: 10px;    
     }   
+    /*блок заголовку*/
     .title{
+    margin-top: 20px;
     background: rgb(253, 48, 48);
     width: auto;
     color: white;
     padding: 10px;
-
-    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
  
  
  }
  
- 
- 
- .title{
- 
- background: rgb(253, 48, 48);
- width: auto;
- color: white;
- padding: 10px;
- border-radius: 5px;
- 
- text-transform: uppercase;
- font-size: 20px;
- text-align: center;
- font-weight: bold;
- letter-spacing: 3px;
- 
-     
- }
- 
- 
+ /*блок товарів*/
  .items{
  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
- 
- 
  }
  
  .item{
- 
-    width: 200px;
-    height: 320px;
-    margin-bottom: 10px;
- 
-    border: 1px solid rgb(194, 194, 194);
- 
-    border-radius: 5px;
-    
-    text-transform: uppercase;
-    font-size: 20px;
-    text-align: center;
+   min-width: 200px;
+   min-height: 400px;
+   margin-bottom: 10px;
+   padding: 10px;
+   background-color: #ffffff;
+   border: 1px solid rgb(194, 194, 194);
+   border-radius: 5px;
+   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ /*блок назви товару*/
+.item-title{
     font-weight: bold;
- 
-    letter-spacing: 3px;
-    
-        
+}
+    /*блок зображення товару*/
+    .item-image{
+        height: 200px;
     }
-    
-    
-    .items{
-    
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-    
-    
-    }
-    
-    .item{
-    
-       width: 200px;
-       height: 380px;
-       margin-bottom: 10px;
-    
-       border: 1px solid rgb(194, 194, 194);
-       border-radius: 5px;
-       box-shadow: 0 0 7px rgba(0, 0, 0, 0.3)
-    
-    
-    
-    }
-    
-    
+    .parts-pay{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+     
+     }
+     
+     .parts-pay img{
+        height: 24px;
+     }
+     .prise{
+        border: 1px solid rgb(8, 8, 8);
+        border-radius: 5px;
+        padding: 5px 10px;
+        display: flex;
+     }
+     
+     .prise div:first-child{
+        width: 100px;
+        font-size: 20px;
+     }
+     
+     .prise div:first-child span {
+        text-decoration-line: line-through;
+     }
+     
     .contract p{
        margin: 3px;
     }
@@ -108,6 +102,46 @@ body{
     .contacts p:last-child{
        border-left: 3px solid rgb(255, 255, 255);;
     }
+     
+    .prise div:first-child sup{
+        font-size: 12px;
+     }
+     
+     .prise div:last-child{
+        font-size: 24px;
+     }
+     
+     .prise div:last-child sup{
+        font-size: 14px;
+     }
+     .bonus {
+        background: rgb(235, 48, 48);
+        color:white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+     }
+     
+     .bonus div:first-child{
+        width: 100px;
+        font-size: 14px;
+     }
+     
+     .bonus div:last-child{
+        font-size: 24px;
+     }
+     
+     .bonus div:last-child sup{
+        font-size: 14px;
+     }
+     
+     .contacts p {
+        margin: 3px;
+     }
+    .contacts p:first-child{
+        font-weight: bold;
+        letter-spacing: 1px;
+    } 
     
     .license {
     
@@ -118,79 +152,14 @@ body{
     }
     
     .item-title{
-    
-       height: 200px;
-       background-image: url(sprite/motokosa.jpg);
-       background-size: 70%;
+        width: 200px;
+       height: 150px;
+       background-image: url(img/motokosa.png);
+       background-size: 50%;
        background-position: center;
        background-repeat: no-repeat;
     }
     
-    .parts-pay{
-    
-       display: flex;
-       flex-direction: column;
-       align-items: flex-end;
-       justify-content: center;
-    
-    }
-    
-    .parts-pay img{
-       height: 100px;
-    }
-    
-    .prise{
-       border: 1px solid rgb(8, 8, 8);
-       border-radius: 5px;
-       padding: 5px 10px;
-       display: flex;
-    }
-    
-    .prise div:first-child{
-       width: 100px;
-       font-size: 20px;
-    }
-    
-    .prise div:first-child span {
-       text-decoration-line: line-through;
-    }
-    
-    .prise div:first-child sup{
-       font-size: 12px;
-    }
-    
-    .prise div:last-child{
-       font-size: 24px;
-    }
-    
-    .prise div:last-child sup{
-       font-size: 14px;
-    }
-    
-    .bonus {
-       background: rgb(255, 137, 2);
-       color:rgb(255, 0, 0);
-       border-radius: 5px;
-       display: flex;
-       align-items: center;
-    }
-    
-    .bonus div:first-child{
-       width: 100px;
-       font-size: 14px;
-    }
-    
-    .bonus div:last-child{
-       font-size: 24px;
-    }
-    
-    .bonus div:last-child sup{
-       font-size: 14px;
-    }
-    
-    .contacts p {
-       margin: 3px;
-    }
     
     .contacts p:last-child{
        border-left: 3px solid rgb(255, 255, 255)
@@ -219,12 +188,14 @@ body{
  .item-title{
  
     height: 30px;
-    background-image: url(sprite/motokosa.jpg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
  }
- 
+ .motokosa{
+    background-size: 90;
+    background-image: url(img/motokosa.png);
+ }
  .parts-pay{
  
     display: flex;
