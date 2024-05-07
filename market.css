@@ -1,12 +1,13 @@
 
 body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Roboto;    
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+   background:  #f1f1f1;;
+   display: flex;
+   justify-content: center;
+   
     }
     content {
        width: 460px;
@@ -14,32 +15,34 @@ body{
        flex-direction: column;
        justify-content: center;
        gap: 10px;    
-    }   
+    }  
+    /*для наочності роботи з блоками*/ 
+    div{
+      border: 1px solid darkgray;
+    }
     /*блок заголовку*/
     .title{
-    margin-top: 20px;
-    background: rgb(253, 48, 48);
-    width: auto;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 3px;
- 
- 
+      background: rgb(253, 48, 48);
+      width: auto;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 3px;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  
  /*блок товарів*/
  .items{
- 
+   /*padding: 10px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+     /*gap: 2px;*/
  }
  
  .item{
@@ -51,90 +54,91 @@ body{
    border: 1px solid rgb(194, 194, 194);
    border-radius: 5px;
    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
  }
- /*блок назви товару*/
+  /*блок назви товару*/
 .item-title{
-    font-weight: bold;
+   font-weight: bold;
 }
-    /*блок зображення товару*/
-    .item-image{
-        height: 200px;
-    }
-    .parts-pay{
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-     
-     }
-     
-     .parts-pay img{
-        height: 24px;
-     }
-     .prise{
-        border: 1px solid rgb(8, 8, 8);
-        border-radius: 5px;
-        padding: 5px 10px;
-        display: flex;
-     }
-     
-     .prise div:first-child{
-        width: 100px;
-        font-size: 20px;
-     }
-     
-     .prise div:first-child span {
-        text-decoration-line: line-through;
-     }
-     
-    .contract p{
-       margin: 3px;
-    }
-    
-    .contact p:first-child{
-       font-weight: bold;
-    }
-    
-    .contacts p:last-child{
-       border-left: 3px solid rgb(255, 255, 255);;
-    }
-     
-    .prise div:first-child sup{
-        font-size: 12px;
-     }
-     
-     .prise div:last-child{
-        font-size: 24px;
-     }
-     
-     .prise div:last-child sup{
-        font-size: 14px;
-     }
-     .bonus {
-        background: rgb(235, 48, 48);
-        color:white;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-     }
-     
-     .bonus div:first-child{
-        width: 100px;
-        font-size: 14px;
-     }
-     
-     .bonus div:last-child{
-        font-size: 24px;
-     }
-     
-     .bonus div:last-child sup{
-        font-size: 14px;
-     }
-     
+   /*блок зображення товару*/
+   .item-image{
+       height: 200px;
+   }
+   /*блок з оплатою частинами*/
+   .parts-pay{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+   }
+   /*зображення, які знаходяться в блоці оплати частинами*/
+   .parts-pay img{
+      height: 24px;
+   }
+   /*блок ціни*/
+   .prise{
+      border: 1px solid rgb(8, 8, 8);
+      border-radius: 5px;
+      padding: 5px 10px;
+      display: flex;
+   }
+   .prise div:first-child{
+      width: 100px;
+      font-size: 20px;
+   }
+   .prise div:first-child span {
+      text-decoration-line: line-through;
+   }
+   .prise div:first-child sup{
+      font-size: 12px;
+   }
+   
+   .prise div:last-child{
+      font-size: 24px;
+   }
+   
+   .prise div:last-child sup{
+      font-size: 14px;
+   }
+   /*блок бонусної ціни*/
+   .bonus {
+      background: rgb(235, 48, 48);
+      color:white;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+   }
+   .bonus div:first-child{
+      width: 100px;
+      font-size: 14px;
+   }
+   .bonus div:last-child{
+      font-size: 24px;
+   }
+   .bonus div:last-child sup{
+      font-size: 14px;
+   }
+   /*блок контактів*/
+ .contract p{
+   margin: 3px;
+}
+.contact p:first-child{
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+.contacts p:last-child{
+   border-left: 3px solid rgb(253, 48, 48);;
+}
+/*блок інформації*/
+.info {
+   font-size: 9px;
+   text-align: justify;
+   color: rgb(120, 120, 120);
+
+}              
      .contacts p {
         margin: 3px;
      }
@@ -142,16 +146,7 @@ body{
         font-weight: bold;
         letter-spacing: 1px;
     } 
-    
-    .license {
-    
-       font-size: 9px;
-       text-align: justify;
-       color: rgb(120, 120, 120);
-    
-    }
-    
-    .item-title{
+       .item-title{
         width: 200px;
        height: 150px;
        background-image: url(img/motokosa.png);
