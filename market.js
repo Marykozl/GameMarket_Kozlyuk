@@ -24,6 +24,7 @@
     <p>${item}</p>
     </footer>
     </div>`
+    
     //console.log(item)
     //itemsDiv.innerHTML += '<div class = "item"></div>'
 })
