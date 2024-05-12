@@ -19,8 +19,10 @@
     itemsArray.forEach((item, index) =>
 {
     itemsDiv.innerHTML += `<div class = "item">
-    <h2>Товар №${index+1}</h2>
+    <footer>
+    <h2>Товар №${index+1} з 4</h2>
     <p>${item}</p>
+    </footer>
     </div>`
     //console.log(item)
     //itemsDiv.innerHTML += '<div class = "item"></div>'
