@@ -20,7 +20,7 @@
 {
     itemsDiv.innerHTML += `<div class = "item">
     <footer>
-    <h2>Товар №${index+1} з${itemsArray.length}</h2>
+    <h2>Товар №${index+1} з ${itemsArray.length}</h2>
     <p>${item}</p>
     </footer>
     </div>`
