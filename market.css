@@ -266,12 +266,15 @@ body{
     text-align: justify;
     color: rgb(120, 120, 120);
  }
-/**.footer 
+/*.footer 
 {
    position: absolute;
    bottom: 0;
    left: 0;
    z-index: 10;
-}/
- 
+}*/
+ .user-photo
+ {
+   width: 150px;
+ }
  
