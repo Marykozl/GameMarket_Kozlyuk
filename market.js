@@ -19,6 +19,24 @@
     prise_normal:4497,
     prise_discoun:3498,
     prise_coupon: 3396,
+},
+{
+    title:"Електрична газонокосарка 32",
+    image:"https://machtz.com.ua/files/resized/products/000024307_5be968a4-80ad-4b5b-b7ca-f04e9b0d4452-800x800.800x850.jpg",
+    lapka:6,
+    pb: 8,
+    prise_normal:4497,
+    prise_discoun:3297,
+    prise_coupon: 3195,
+},
+{
+    title:"Aкумуляторний обприскувач 12 N",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5VL2RlulArIDQFfxJAJbON_7km1eRt_J-Q&usqp=CAU",
+    lapka:6,
+    pb: 8,
+    prise_normal:2190,
+    prise_discoun:1698,
+    prise_coupon: 1596,
 }
 ]
 //{

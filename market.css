@@ -75,6 +75,7 @@ body{
    }
    /*блок з оплатою частинами*/
    .parts-pay{
+      flex-direction: column;
       margin-top: 30px;
       display: flex;
       flex-direction: column;
@@ -86,30 +87,30 @@ body{
       height: 24px;
    }
    /*блок ціни*/
-   .prise{
-      border: 1px solid rgb(8, 8, 8);
-      border-radius: 5px;
-      padding: 5px 10px;
-      display: flex;
-   }
-   .prise div:first-child{
-      width: 100px;
+   .price {
+      border: 1px solid rgb(215, 215, 215);
+      border-radius: 10px;
       font-size: 20px;
-   }
-   .prise div:first-child span {
-      text-decoration-line: line-through;
-   }
-   .prise div:first-child sup{
-      font-size: 12px;
-   }
-   
-   .prise div:last-child{
-      font-size: 24px;
-   }
-   
-   .prise div:last-child sup{
-      font-size: 14px;
-   }
+      width: 230px;
+      height: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  .price div :first-child {
+      width: 200px;
+      font-size: 16px;
+      text-decoration-line : line-through ;
+  }
+  
+  .price div :first-child span{
+      text-decoration-line : line-through ;
+  }
+  
+  .price sup{
+      font-size: 10px;
+  }
    /*блок бонусної ціни*/
    .bonus {
       background: rgb(235, 48, 48);
