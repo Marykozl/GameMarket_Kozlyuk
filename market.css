@@ -17,9 +17,7 @@ body{
        gap: 10px;    
     }  
     /*для наочності роботи з блоками*/ 
-    div{
-      border: 1px solid darkgray;
-    }
+    
     /*блок заголовку*/
     .title{
       background: rgb(253, 48, 48);
@@ -38,10 +36,14 @@ body{
  
  /*блок товарів*/
  .items{
-   /*padding: 10px;*/
+   padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    width: 450px;
      /*gap: 2px;*/
  }
  
@@ -49,14 +51,18 @@ body{
    min-width: 200px;
    min-height: 400px;
    margin-bottom: 10px;
+
+   width: 200px;
+   height: 300px;
    padding: 10px;
    background-color: #ffffff;
    border: 1px solid rgb(194, 194, 194);
-   border-radius: 5px;
+   border-radius: 20px;
    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   align-items: center;
+   justify-content: space-around;
  }
   /*блок назви товару*/
 .item-title{
@@ -65,6 +71,7 @@ body{
    /*блок зображення товару*/
    .item-image{
        height: 200px;
+       width: 180px;
    }
    /*блок з оплатою частинами*/
    .parts-pay{
