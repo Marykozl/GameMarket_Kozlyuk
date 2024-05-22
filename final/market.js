@@ -5,7 +5,8 @@
             email: "23a_bam@liceum.ztu.edu.ua",
             group: "10-А 1",
             name: "Боровий Артур",
-            author_photo:"",
+            author_photo:"Боровий.jpg",
+            game_photo: "",
             gameTitle: "Дід проти москалів",
             gameGithub: "https://github.com/23a-bam/Phaser2ndGame",
             gameGithubPages: "https://23a-bam.github.io/Phaser2ndGame/",
@@ -188,8 +189,8 @@
         <div class="item-title">${item.gameTitle}</div>
         <div class="item-title">${item.name}</div>
         <!--Photo-->
-        <div><img src="img_st/${item.author_photo}" class="item-image"></div>
-        <div><img src="img_st/${item.image}" class="item-image"></div>
+        <div><img src="img/${item.author_photo}" class="item-image"></div>
+        <div><img src="img/${item.image}" class="item-image"></div>
         <!--Info-->
         <div><a href="${item.email}">Написати</a></div>
         <div>${item.group}</div>
