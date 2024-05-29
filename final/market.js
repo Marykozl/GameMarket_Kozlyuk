@@ -2,20 +2,20 @@
 //визначення масиву товарів
     let itemsArray =   [
         {
-            email: "23a_bam@liceum.ztu.edu.ua",
-            group: "10-А 1",
+            gameTitle: "Дід проти москалів",
             name: "Боровий Артур",
             author_photo:"Боровий.jpg",
-            game_photo: "",
-            gameTitle: "Дід проти москалів",
+            game_photo: "Боровий1.jpg",
+            email: "23a_bam@liceum.ztu.edu.ua",
+            group: "10-А 1",
             gameGithub: "https://github.com/23a-bam/Phaser2ndGame",
             gameGithubPages: "https://23a-bam.github.io/Phaser2ndGame/",
-            documentationDrive: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
-            surveyForm: "https://forms.gle/sS7tuJWJuGDjmHB98",
+            docs: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
+            forms: "https://forms.gle/sS7tuJWJuGDjmHB98",
             gameMarketGithub: "https://github.com/23a-bam/GameMarket_Borovyi",
             gameMarketPages: "https://23a-bam.github.io/GameMarket_Borovyi/",
             marketPages: "https://23a-bam.github.io/GameMarket_Borovyi/market.html",
-            gameMarketFinalPage: "-"
+            final: "https://23a-bam.github.io/GameMarket_Borovyi/market.html"
         },
         {
             email: "23a_gki@liceum.ztu.edu.ua",
@@ -190,20 +190,20 @@
         <div class="item-title">${item.name}</div>
         <!--Photo-->
         <div><img src="img/${item.author_photo}" class="item-image"></div>
-        <div><img src="img/${item.image}" class="item-image"></div>
+        <div><img src="img/${item.game_photo}" class="item-image"></div>
         <!--Info-->
         <div><a href="${item.email}">Написати</a></div>
         <div>${item.group}</div>
         <!--Game-->
-        <div><a href="${item.game_github}">GitHub гри</a></div>
-        <div><a href=${item.game_pages}>Гра</a></div>
+        <div><a href="${item.gameGithub}">GitHub гри</a></div>
+        <div><a href=${item. gameGithubPages}>Гра</a></div>
         <div><a href="${item.docs}">Документація</a></div>
         <div><a href=">${item.forms}">Опитування</a</div>
         <!--Market-->
-        <div><a href="${item.gamemarket_github}">GitHub маркету</a></div>
-        <div><a href="${item.gamemarket_pages}">Маркет ігор</a></div>
-        <div><a href="${item.market_pagesb}">Маркет продуктів</a></div>
-
+        <div><a href="${item.gameMarketGithub}">GitHub маркету</a></div>
+        <div><a href="${item.gameMarketPages}">Маркет ігор</a></div>
+        <div><a href="${item.marketPages}">Маркет продуктів</a></div>
+        <div><a href="${item.final}">Фінальна сторінка</a></div>
 </div>`
 });
 {
