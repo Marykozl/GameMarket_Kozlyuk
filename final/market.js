@@ -18,56 +18,67 @@
             final: "https://23a-bam.github.io/GameMarket_Borovyi/market.html"
         },
         {
+            gameTitle: "Магазин UkraineRog",
+            name: "Геча Кирило",
+            author_photo:"Геча.jpg",
+            game_photo: "Геча1.jpg",
             email: "23a_gki@liceum.ztu.edu.ua",
             group: "10-А 1",
-            name: "Геча Кирило",
-            gameTitle: "Магазин UkraineRog",
             gameGithub: "https://github.com/Kyrylooo/GameMarket_Surname",
             gameGithubPages: "https://kyrylooo.github.io/Test1/",
-            documentationDrive: "-",
-            surveyForm: "-",
+            docs: "-",
+            forms: "-",
             gameMarketGithub: "https://github.com/Kyrylooo/Test1",
             gameMarketPages: "https://kyrylooo.github.io/Test1/",
             marketPages: "https://kyrylooo.github.io/Test1/",
-            gameMarketFinalPage: "-"
+            final: "https://kyrylooo.github.io/Test1/"
         },
         {
+            gameTitle: "-",
+            name: "Громова Марина",
+            author_photo:"Громова.jpg",
+            game_photo: "Громова1.jpg",
             email: "23a_gmo@liceum.ztu.edu.ua",
             group: "10-А 1",
-            name: "Громова Марина",
-            gameTitle: "-",
             gameGithub: "https://github.com/Marina745/Phaser2ndGame",
             gameGithubPages: "https://marina745.github.io/Phaser2ndGame/",
-            documentationDrive: "https://drive.google.com/drive/folders/1h8T6v1Yt0wkzkiI72lSMMZndaidptT6o",
-            surveyForm: "https://forms.gle/4tsVxrHtBpkLLmdc6",
+            docs: "https://drive.google.com/drive/folders/1h8T6v1Yt0wkzkiI72lSMMZndaidptT6o",
+            forms: "https://forms.gle/4tsVxrHtBpkLLmdc6",
             gameMarketGithub: "https://github.com/Marina745/GameMarket_Hromova/blob/main/market.js",
             gameMarketPages: "https://marina745.github.io/GameMarket_Hromova/market.html",
             marketPages: "-",
-            gameMarketFinalPage: "-"
+            final: "-"
         },
         {
+            gameTitle: "-",
+            name: "Гуменюк Аріна",
+            author_photo:"Гуменюк.jpg",
+            game_photo: "Гуменюк1.jpg",
             email: "23a_gayu@liceum.ztu.edu.ua",
             group: "10-А 1",
-            name: "Гуменюк Аріна",
-            gameTitle: "-",
             gameGithub: "https://github.com/NoraBlank/-Phaser2ndGame?authuser=0",
             gameGithubPages: "https://norablank.github.io/-Phaser2ndGame/?authuser=0",
-            documentationDrive: "https://docs.google.com/document/d/1ESxlcNrGJPWx--NdlFbMdZJNQ3mHWVKQ-HktIVOJBVY/edit?usp=sharing",
-            surveyForm: "https://forms.gle/rNroPXhu2mFSxcHx8",
+            docs: "https://docs.google.com/document/d/1ESxlcNrGJPWx--NdlFbMdZJNQ3mHWVKQ-HktIVOJBVY/edit?usp=sharing",
+            forms: "https://forms.gle/rNroPXhu2mFSxcHx8",
             gameMarketGithub: "",
-            gameMarketPages: ""
+            gameMarketPages: "",
+            marketPages: "-",
+            final:"-"
         },
         {
+            gameTitle: "-",
+            name: "Демидчук Ілля",
+            author_photo:"Демидчук.jpg",
+            game_photo: "Демидчук1.jpg",
             email: "23a_dii@liceum.ztu.edu.ua",
             group: "10-А 1",
-            name: "Демидчук Ілля",
-            gameTitle: "-",
             gameGithub: "https://github.com/zxcursed2008/Phaser2ndGame",
             gameGithubPages: "https://zxcursed2008.github.io/Phaser2ndGame/",
-            documentationDrive: "https://drive.google.com/drive/folders/1BfaZ86pNTA3FO_rOn196XXKOLYNQQ81E",
+            docs: "https://drive.google.com/drive/folders/1BfaZ86pNTA3FO_rOn196XXKOLYNQQ81E",
             surveyForm: "https://forms.gle/xs7rgVauTR9ryuNc7",
             gameMarketGithub: "https://github.com/zxcursed2008/GameMarket_Demydchuk/",
-            gameMarketPages: ""
+            gameMarketPages: "",
+            marketPages: "-",
         },
         {
             email: "23a_dyem@liceum.ztu.edu.ua",
@@ -79,7 +90,8 @@
             documentationDrive: "https://drive.google.com/drive/folders/1uFrc-z8MnRAFvR7sPNM1NnN800TJOUfr",
             surveyForm: "https://forms.gle/XDzvrjzJhjq758XFA",
             gameMarketGithub: "https://github.com/liska228/GameMarket_Derkach-",
-            gameMarketPages: "https://liska228.github.io/GameMarket_Derkach-/market.html"
+            gameMarketPages: "https://liska228.github.io/GameMarket_Derkach-/market.html",
+            marketPages: "-",
         },
         {
             email: "23a_yedv@liceum.ztu.edu.ua",
@@ -116,6 +128,18 @@
             surveyForm: "https://forms.gle/i7YyjwzaHp7QvXei8",
             gameMarketGithub: "https://github.com/Andre00785/Game_Market_Kovalev",
             gameMarketPages: "https://andre00785.github.io/Game_Market_Kovalev/market.html"
+        },
+        {
+            email: "23a_kiv@liceum.ztu.edu.ua",
+            group: "10-А 1",
+            name: "Кайданюк Ілля",
+            gameTitle: "Пригоди Свинки Шмеппи 3",
+            gameGithub: "https://github.com/Nefenix/Phaser2ndGame",
+            gameGithubPages: "https://nefenix.github.io/Phaser2ndGame/",
+            documentationDrive: "https://drive.google.com/drive/folders/1xlqWdx6uMj_5XWDlfl4EYZtAD6A8LGMq?usp=drive_link",
+            surveyForm: "https://forms.gle/e4camX4k2MZvK9qf7",
+            gameMarketGithub: "https://github.com/Nefenix/GameMarket_Kaidaniuk",
+            gameMarketPages: "https://nefenix.github.io/GameMarket_Kaidaniuk/market.html"
         },
         {
             email: "23a_kyuk@liceum.ztu.edu.ua",
@@ -165,18 +189,6 @@
             gameMarketGithub: "https://github.com/SofiaLazarenko/GameMarket_Lazarenko?authuser=0",
             gameMarketPages: "https://sofialazarenko.github.io/GameMarket_Lazarenko/n/market.html?authuser=0"
         },
-        {
-            email: "23a_kiv@liceum.ztu.edu.ua",
-            group: "10-А 1",
-            name: "Кайданюк Ілля",
-            gameTitle: "Пригоди Свинки Шмеппи 3",
-            gameGithub: "https://github.com/Nefenix/Phaser2ndGame",
-            gameGithubPages: "https://nefenix.github.io/Phaser2ndGame/",
-            documentationDrive: "https://drive.google.com/drive/folders/1xlqWdx6uMj_5XWDlfl4EYZtAD6A8LGMq?usp=drive_link",
-            surveyForm: "https://forms.gle/e4camX4k2MZvK9qf7",
-            gameMarketGithub: "https://github.com/Nefenix/GameMarket_Kaidaniuk",
-            gameMarketPages: "https://nefenix.github.io/GameMarket_Kaidaniuk/market.html"
-        }
     ];
 // Отримання елементу з ідентифікатором items 
     let itemsDiv = document.getElementById("item");
