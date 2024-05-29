@@ -81,10 +81,10 @@
             marketPages: "-",
         },
         {
+            gameTitle: "Царівна жаба",
+            name: "Деркач Єлизавета",
             email: "23a_dyem@liceum.ztu.edu.ua",
             group: "10-А 1",
-            name: "Деркач Єлизавета",
-            gameTitle: "Царівна жаба",
             gameGithub: "https://github.com/liska228/Phaser2ndGame",
             gameGithubPages: "https://liska228.github.io/Phaser2ndGame/",
             documentationDrive: "https://drive.google.com/drive/folders/1uFrc-z8MnRAFvR7sPNM1NnN800TJOUfr",
